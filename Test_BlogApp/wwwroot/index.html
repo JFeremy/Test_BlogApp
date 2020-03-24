@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html><html lang="en">
+               <head>
+                   <meta charset="UTF-8">
+                   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                   <title>Blogger APP</title>
+                   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+                   <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" data-auto-replace-svg="nest"></script>
+                   <link rel="stylesheet" href="css/site.css" />
+               </head>
+<body>
+    <header>
+        <h1>Administration du blog</h1>
+    </header>
+    <section>
+        <article id="favorite">
+            <div class="subtitle">
+                <i class="fas fa-star"></i><h3>Les favoris</h3>
+                
+            </div>
+            <hr />
+        </article>
+    </section>
+    <section>
+        <article id="bloggers">
+            <div class="subtitle">
+                <i class="fas fa-pen"></i><h3>Nos auteurs</h3>
+            </div>
+        </article>
+        <article id="posts">
+            <div class="subtitle">
+                <i class="fas fa-paper-plane"></i><h3 id="author"></h3>
+            </div>
+        </article>
+    </section>
+    <footer>
+        <h5>Create by Jeremy Fumeron</h5>
+        <h6>Test of ASP NET</h6>
+    </footer>
+
+
+
+    <script src="js/site.js" asp-append-version="true"></script>
+    <script type="text/javascript">
+        getBloggers();
+    </script>
+</body>
+</html>

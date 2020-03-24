@@ -1,0 +1,97 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Francois+One&display=swap');
+
+body {
+    font-family: 'Francois One', sans-serif;
+    background-color: #0A2239;
+    color: #53A2BE;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    color: #1D84B5;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: baseline;
+    color: #176087;
+}
+
+section {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+article {
+    padding: 10px 20px;
+}
+
+#favorite {
+    background-color: #132E32;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#bloggers {
+    flex: 1;
+}
+
+#posts {
+    flex: 4;
+}
+
+.active {
+    background-color: transparent !important;
+    color: #53A2BE !important;
+    border: 1px solid #53A2BE !important;
+    border-radius: 1px !important;
+}
+
+.blogger {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    background-color: #53A2BE;
+    color: #0A2239;
+    border-radius: 5px;
+}
+
+.blogger p, .blogger h4 {
+    margin: 5px;
+}
+
+.blogger p {
+    text-align: end;
+}
+
+.post {
+    padding: 5px 10px;
+    background-color: #132E32;
+    margin: 15px;
+}
+
+i {
+    padding-right: 15px;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+h5 {
+    text-align: center;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
