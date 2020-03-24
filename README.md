@@ -3,7 +3,7 @@ Application de blog - Test d'ASP NET
 
 
 ## JSON  
-Utilisation du site https://www.json-generator.com/ pour la gÈnÈration automatique.
+Utilisation du site https://www.json-generator.com/ pour la g√©n√©ration automatique.
 ``[
   '{{repeat(5, 7)}}',
   {
@@ -20,3 +20,11 @@ Utilisation du site https://www.json-generator.com/ pour la gÈnÈration automatiq
     ]
   }
 ]``
+
+## Pr√©sentation 
+Interface au d√©marrage
+![Interface au d√©marrage](https://raw.githubusercontent.com/JFeremy/Test_BlogApp/master/illustration1.PNG)
+
+---
+Interface avec l'ajout d'un favori 
+![Favori](https://raw.githubusercontent.com/JFeremy/Test_BlogApp/master/illustration2.PNG)
